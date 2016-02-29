@@ -1,0 +1,68 @@
+statsTidy.txt is compiled from the "Human Activity Recognition Using Smartphones" Data Set which can be got from and is described at
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+It is a summary of the smart phone metric observations.
+
+Variables
+
+activity:  Exercise undertaken by the subject for which the sensor metrics are taken
+   Type:   Char
+   Values: 
+           WALKING
+
+           WALKING_UPSTAIRS
+
+           WALKING_DOWNSTAIRS
+
+           SITTING
+           STANDING
+
+           LAYING
+
+subject:   Subject ID for whom the observations were taken   
+   Type:   Integer
+
+sensor :   The measurement metric type
+   Type:   Real number
+   Values: fBodyAcc-X
+           fBodyAccJerk-X
+           fBodyAccJerk-Y
+           fBodyAccJerk-Z
+           fBodyAccMag
+           fBodyBodyAccJerkMag
+           fBodyBodyGyroJerkMag
+           fBodyBodyGyroMag
+           fBodyGyro-X
+           fBodyGyro-Y
+           fBodyGyro-Z
+           tBodyAcc-X
+           tBodyAcc-Y
+           tBodyAcc-Z
+           tBodyAccJerk-X
+           tBodyAccJerk-Y
+           tBodyAccJerk-Z
+           tBodyAccJerkMag
+           tBodyAccMag
+           tBodyGyro-X
+           tBodyGyro-Y
+           tBodyGyro-Z
+           tBodyGyroJerk-X
+           tBodyGyroJerk-Y
+           tBodyGyroJerk-Z
+           tBodyGyroJerkMag
+           tBodyGyroMag
+           tGravityAcc-X
+           tGravityAcc-Y
+           tGravityAcc-Z
+           tGravityAccMag
+
+mean of mean:  mean of the mean of each sensor by activity and subject
+   Type: real number
+
+mead of std:    mean of the std of each sensor by activity and subject
+   Type: real number
+
+
+
+   
+   
